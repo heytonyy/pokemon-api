@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.rubik-font {
+  font-family: 'Rubik', sans-serif;
+}
+
+.blue-border {
+  border: 2p solix dodgerblue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

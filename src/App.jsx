@@ -1,12 +1,11 @@
 import React from 'react'
-import style from './App.module.css'
-import Form from './components/Form'
+import Pokedex from './components/Pokedex/Pokedex'
+import '../src/App.css'
 
 export default function App() {
-
   return (
-    <div className={style.App}>
-      <Form />
-    </div>
+    <>
+        <Pokedex />
+    </>
   )
 }
